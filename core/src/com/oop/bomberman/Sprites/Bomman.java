@@ -43,7 +43,6 @@ public class Bomman extends Sprite implements InputProcessor {
         isDead = false;
         isWin = false;
         defineBomman();
-
         currentState = State.DOWN;
         prevState = State.DOWN;
         stateTimer = 0;

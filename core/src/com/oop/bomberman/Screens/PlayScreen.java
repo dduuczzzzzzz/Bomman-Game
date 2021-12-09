@@ -56,6 +56,7 @@ public class PlayScreen implements Screen {
 
         world = new World(new Vector2(0,0),true);
         b2dr = new Box2DDebugRenderer();
+        b2dr.setDrawBodies(false);
 
         mapLoader = new TmxMapLoader();
         map = mapLoader.load("maps/secondmap.tmx");
