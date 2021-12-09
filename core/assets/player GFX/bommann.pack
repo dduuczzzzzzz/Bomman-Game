@@ -1,0 +1,89 @@
+
+bommann.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+spritesheet
+  rotate: false
+  xy: 1, 5
+  size: 128, 16
+  orig: 128, 16
+  offset: 0, 0
+  index: -1
+enemy
+  rotate: false
+  xy: 131, 1
+  size: 85, 20
+  orig: 85, 20
+  offset: 0, 0
+  index: -1
+bomb
+  rotate: false
+  xy: 218, 5
+  size: 48, 16
+  orig: 48, 16
+  offset: 0, 0
+  index: -1
+goomba
+  rotate: false
+  xy: 268, 5
+  size: 48, 16
+  orig: 48, 16
+  offset: 0, 0
+  index: -1
+portal
+  rotate: false
+  xy: 318, 5
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+powerup_bombpass
+  rotate: false
+  xy: 336, 5
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+powerup_bombs
+  rotate: false
+  xy: 354, 5
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+powerup_detonator
+  rotate: false
+  xy: 372, 5
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+powerup_flamepass
+  rotate: false
+  xy: 390, 5
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+powerup_flames
+  rotate: false
+  xy: 408, 5
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+powerup_speed
+  rotate: false
+  xy: 426, 5
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+powerup_wallpass
+  rotate: false
+  xy: 444, 5
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1

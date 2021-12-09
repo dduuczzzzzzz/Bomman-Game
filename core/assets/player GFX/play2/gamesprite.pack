@@ -1,0 +1,215 @@
+
+gamesprite.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+assse
+  rotate: false
+  xy: 1, 19
+  size: 512, 32
+  orig: 512, 32
+  offset: 0, 0
+  index: -1
+bomb_exploded
+  rotate: false
+  xy: 1, 1
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+bomb_exploded1
+  rotate: false
+  xy: 515, 35
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+bomb_exploded2
+  rotate: false
+  xy: 19, 1
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+explosion_horizontal
+  rotate: false
+  xy: 533, 35
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+explosion_horizontal1
+  rotate: false
+  xy: 37, 1
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+explosion_horizontal2
+  rotate: false
+  xy: 551, 35
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+explosion_horizontal_left_last
+  rotate: false
+  xy: 55, 1
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+explosion_horizontal_left_last1
+  rotate: false
+  xy: 569, 35
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+explosion_horizontal_left_last2
+  rotate: false
+  xy: 73, 1
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+explosion_horizontal_right_last
+  rotate: false
+  xy: 587, 35
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+explosion_horizontal_right_last1
+  rotate: false
+  xy: 91, 1
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+explosion_horizontal_right_last2
+  rotate: false
+  xy: 605, 35
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+explosion_vertical
+  rotate: false
+  xy: 109, 1
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+explosion_vertical1
+  rotate: false
+  xy: 623, 35
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+explosion_vertical2
+  rotate: false
+  xy: 127, 1
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+explosion_vertical_down_last
+  rotate: false
+  xy: 641, 35
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+explosion_vertical_down_last1
+  rotate: false
+  xy: 145, 1
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+explosion_vertical_down_last2
+  rotate: false
+  xy: 659, 35
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+explosion_vertical_top_last
+  rotate: false
+  xy: 163, 1
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+explosion_vertical_top_last1
+  rotate: false
+  xy: 677, 35
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+explosion_vertical_top_last2
+  rotate: false
+  xy: 181, 1
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+portal
+  rotate: false
+  xy: 695, 35
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+powerup_bombpass
+  rotate: false
+  xy: 199, 1
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+powerup_bombs
+  rotate: false
+  xy: 713, 35
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+powerup_detonator
+  rotate: false
+  xy: 217, 1
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+powerup_flamepass
+  rotate: false
+  xy: 731, 35
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+powerup_flames
+  rotate: false
+  xy: 235, 1
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+powerup_speed
+  rotate: false
+  xy: 749, 35
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+powerup_wallpass
+  rotate: false
+  xy: 253, 1
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1

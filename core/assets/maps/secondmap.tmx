@@ -1,0 +1,745 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="35" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="15" nextobjectid="199">
+ <properties>
+  <property name="speed" value=""/>
+ </properties>
+ <tileset firstgid="1" source="terrain_atlas.tsx"/>
+ <layer id="1" name="Tile Layer 1" width="35" height="20">
+  <data encoding="csv">
+936,936,936,936,936,937,937,937,936,936,936,936,936,936,936,936,936,936,936,936,936,936,936,936,936,936,936,936,936,936,936,936,936,936,936,
+936,936,936,936,936,936,936,936,936,936,936,936,936,936,936,936,936,936,936,936,935,936,936,936,936,936,936,936,936,936,936,936,936,936,936,
+937,937,936,937,937,937,935,935,937,936,936,936,936,936,936,936,936,936,936,936,936,936,936,936,936,936,936,936,936,936,936,937,937,936,936,
+936,936,936,936,936,936,936,935,935,936,937,937,937,937,936,935,936,936,936,936,936,936,936,936,936,935,935,936,936,936,936,937,937,936,936,
+936,935,936,936,936,936,935,937,935,935,935,936,936,937,935,935,937,937,936,936,936,936,936,936,936,936,935,935,936,936,936,937,937,936,936,
+936,935,935,935,937,935,935,936,936,936,935,935,936,937,935,937,936,936,936,935,936,936,936,936,936,936,936,935,936,937,936,937,937,936,936,
+936,936,937,935,936,935,936,937,937,937,937,937,936,937,936,936,937,937,935,935,937,937,937,935,935,936,936,936,936,937,936,937,937,936,936,
+936,936,937,935,935,935,935,936,937,937,937,936,936,936,937,936,935,935,935,937,937,937,937,937,936,936,935,936,936,936,937,937,937,936,936,
+936,936,936,936,935,936,935,935,935,936,936,937,937,937,935,935,935,937,937,936,936,936,937,937,936,936,935,935,936,936,937,937,937,936,936,
+936,936,936,936,936,937,937,936,937,937,937,936,936,937,936,936,936,936,936,936,936,936,935,935,935,935,936,936,936,936,937,937,937,936,936,
+936,936,936,936,937,937,937,937,937,936,936,936,937,936,936,935,935,936,936,936,935,935,937,937,935,935,936,936,936,936,937,937,937,936,936,
+936,936,935,935,936,937,936,936,936,937,936,936,936,935,937,937,935,935,936,936,936,937,935,935,935,935,936,936,936,936,937,937,937,936,936,
+936,935,936,936,936,937,936,937,937,936,936,936,935,935,936,937,937,935,937,937,937,937,937,937,937,935,937,936,936,936,935,937,937,936,936,
+936,936,936,936,937,937,935,937,936,935,936,937,935,935,936,936,937,935,935,937,937,937,937,937,935,937,935,935,935,936,936,937,937,936,936,
+936,935,935,936,937,937,935,935,936,935,936,937,937,935,936,936,937,936,936,936,937,937,937,937,935,936,936,936,937,937,937,937,936,936,936,
+936,935,935,936,936,935,935,935,935,935,936,937,937,937,937,935,937,937,937,937,937,937,936,936,935,936,937,937,937,937,937,937,936,936,936,
+935,935,936,936,936,935,936,935,935,936,936,936,936,936,936,935,937,937,935,935,937,936,937,937,935,935,936,936,936,936,936,936,936,936,936,
+936,936,936,936,935,935,935,937,937,937,937,937,937,937,936,936,936,936,937,935,935,937,937,937,936,936,936,936,936,935,935,936,936,936,936,
+936,936,936,936,937,937,937,937,937,937,937,937,937,936,936,935,935,935,937,937,936,936,936,937,937,937,936,936,936,936,936,936,936,936,936,
+936,936,936,936,936,936,936,936,936,936,936,936,936,936,936,936,935,935,937,937,937,937,937,937,937,936,936,936,936,936,936,936,936,936,936
+</data>
+ </layer>
+ <layer id="2" name="Tile Layer 2" width="35" height="20">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,900,901,901,901,901,901,901,901,902,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,932,933,933,933,933,933,933,933,934,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,932,933,933,933,933,933,933,933,934,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,932,933,933,933,933,933,933,933,934,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,932,933,933,933,933,933,933,933,934,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,932,933,933,933,933,933,933,933,934,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,964,965,965,965,965,965,965,965,966,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,80,81,81,81,81,82,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,112,113,113,113,113,114,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,112,113,113,113,113,114,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,144,145,145,145,145,146,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="3" name="Tile Layer 3" width="35" height="20">
+  <data encoding="csv">
+853,854,854,854,854,854,854,854,854,854,854,854,854,854,854,854,854,854,854,854,854,854,854,854,854,854,854,854,854,854,854,854,854,854,855,
+885,0,0,718,718,0,0,0,718,718,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,887,
+885,0,0,686,718,0,0,686,0,718,718,686,0,0,0,686,718,718,0,686,0,0,0,686,0,0,0,686,0,0,0,686,0,0,887,
+885,0,0,0,718,0,0,0,0,718,0,0,0,0,0,718,718,0,0,718,718,0,0,0,0,0,0,0,718,718,718,718,718,0,887,
+885,0,0,0,718,718,0,0,718,718,0,0,0,718,718,718,0,0,0,0,718,0,0,0,0,0,0,0,718,0,718,718,718,0,887,
+885,0,0,686,718,718,0,686,718,0,0,686,0,718,718,686,0,0,0,686,718,718,718,686,0,0,0,686,718,0,718,686,0,0,887,
+885,0,0,0,0,0,0,718,718,0,0,0,0,0,718,0,0,0,0,0,718,718,718,0,0,0,0,0,0,0,718,718,0,0,887,
+885,0,718,718,718,718,0,0,0,0,0,0,0,0,718,718,718,0,0,0,718,0,0,0,0,0,0,0,0,0,0,718,718,0,887,
+885,0,718,686,0,0,0,686,0,0,0,686,0,0,0,686,0,0,0,686,0,0,0,686,0,718,0,686,0,0,0,686,718,0,887,
+885,0,718,718,718,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,718,718,718,718,0,0,0,718,0,887,
+885,0,0,0,718,0,0,718,718,0,0,0,0,0,718,718,718,0,0,0,718,0,0,0,0,0,718,718,718,0,0,0,0,0,887,
+885,0,0,686,0,0,0,686,718,0,0,686,0,0,718,686,718,0,0,686,718,718,0,686,0,0,0,686,718,0,0,686,0,0,887,
+885,0,0,0,0,0,0,0,718,718,718,0,0,0,718,0,718,718,0,0,0,718,718,0,0,0,0,0,718,0,0,0,0,0,887,
+885,0,0,0,0,0,0,0,0,718,718,0,0,0,718,0,0,0,0,0,718,718,718,0,718,0,0,0,718,0,0,0,0,0,887,
+885,0,0,686,0,0,0,686,0,718,718,686,0,0,718,686,0,0,0,686,0,718,0,686,718,718,0,686,0,0,0,686,0,0,887,
+885,0,0,0,0,0,0,718,718,0,718,0,0,0,0,0,0,0,0,718,718,718,0,0,0,718,0,0,0,0,0,0,0,0,887,
+885,0,0,0,0,718,718,718,0,0,718,0,0,0,0,0,0,0,718,718,0,0,0,0,718,718,0,0,0,0,0,0,0,0,887,
+885,0,0,686,0,718,718,686,0,0,0,686,0,0,0,686,0,0,718,686,0,0,0,686,718,0,0,686,0,0,0,686,0,0,887,
+885,0,0,0,718,718,718,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,887,
+917,918,918,918,918,918,918,918,918,918,918,918,918,918,918,918,918,918,918,918,918,918,918,918,918,918,918,918,918,918,918,918,918,918,919
+</data>
+ </layer>
+ <objectgroup id="6" name="walls">
+  <object id="23" x="0.159091" y="0.227273" width="1118.88" height="30.5"/>
+  <object id="25" x="13.81" y="609.25" width="1092.38" height="30.5"/>
+  <object id="30" x="0.833333" y="17.8333" width="13.6667" height="590.333"/>
+  <object id="31" x="1105.08" y="20.7085" width="13.6667" height="590.333"/>
+ </objectgroup>
+ <objectgroup id="7" name="box">
+  <object id="24" x="736.136" y="64.0455" width="31.6364" height="31.6364"/>
+  <object id="152" x="865.182" y="63.6818" width="31.6364" height="31.6364"/>
+  <object id="153" x="992.182" y="64.6818" width="31.6364" height="31.6364"/>
+  <object id="154" x="992.682" y="160.682" width="31.6364" height="31.6364"/>
+  <object id="155" x="864.682" y="160.182" width="31.6364" height="31.6364"/>
+  <object id="156" x="736.682" y="159.682" width="31.6364" height="31.6364"/>
+  <object id="157" x="737.182" y="255.682" width="31.6364" height="31.6364"/>
+  <object id="158" x="864.682" y="256.682" width="31.6364" height="31.6364"/>
+  <object id="159" x="993.682" y="256.682" width="31.6364" height="31.6364"/>
+  <object id="160" x="864.182" y="351.682" width="31.6364" height="31.6364"/>
+  <object id="161" x="993.182" y="352.682" width="31.6364" height="31.6364"/>
+  <object id="162" x="864.182" y="446.682" width="31.6364" height="31.6364"/>
+  <object id="163" x="992.682" y="448.182" width="31.6364" height="31.6364"/>
+  <object id="164" x="992.182" y="544.682" width="31.6364" height="31.6364"/>
+  <object id="165" x="864.682" y="544.182" width="31.6364" height="31.6364"/>
+  <object id="166" x="737.182" y="544.182" width="31.6364" height="31.6364"/>
+  <object id="167" x="737.182" y="448.182" width="31.6364" height="31.6364"/>
+  <object id="168" x="735.682" y="351.182" width="31.6364" height="31.6364"/>
+  <object id="169" x="608.682" y="63.6818" width="31.6364" height="31.6364"/>
+  <object id="170" x="608.182" y="159.682" width="31.6364" height="31.6364"/>
+  <object id="171" x="481.182" y="64.6818" width="31.6364" height="31.6364"/>
+  <object id="172" x="480.182" y="160.182" width="31.6364" height="31.6364"/>
+  <object id="173" x="481.182" y="256.182" width="31.6364" height="31.6364"/>
+  <object id="174" x="608.682" y="256.682" width="31.6364" height="31.6364"/>
+  <object id="175" x="608.682" y="351.182" width="31.6364" height="31.6364"/>
+  <object id="176" x="479.682" y="350.682" width="31.6364" height="31.6364"/>
+  <object id="177" x="480.182" y="449.182" width="31.6364" height="31.6364"/>
+  <object id="178" x="608.182" y="448.182" width="31.6364" height="31.6364"/>
+  <object id="179" x="480.182" y="544.182" width="31.6364" height="31.6364"/>
+  <object id="180" x="607.682" y="544.682" width="31.6364" height="31.6364"/>
+  <object id="181" x="352.682" y="544.182" width="31.6364" height="31.6364"/>
+  <object id="182" x="223.682" y="544.182" width="31.6364" height="31.6364"/>
+  <object id="183" x="97.1818" y="544.182" width="31.6364" height="31.6364"/>
+  <object id="184" x="97.1818" y="449.682" width="31.6364" height="31.6364"/>
+  <object id="185" x="225.182" y="447.682" width="31.6364" height="31.6364"/>
+  <object id="186" x="352.682" y="448.182" width="31.6364" height="31.6364"/>
+  <object id="187" x="351.682" y="352.682" width="31.6364" height="31.6364"/>
+  <object id="188" x="225.182" y="352.182" width="31.6364" height="31.6364"/>
+  <object id="189" x="96.6818" y="352.182" width="31.6364" height="31.6364"/>
+  <object id="190" x="223.182" y="255.682" width="31.6364" height="31.6364"/>
+  <object id="191" x="352.682" y="255.182" width="31.6364" height="31.6364"/>
+  <object id="192" x="96.1818" y="256.682" width="31.6364" height="31.6364"/>
+  <object id="193" x="97.6818" y="160.182" width="31.6364" height="31.6364"/>
+  <object id="194" x="224.682" y="160.682" width="31.6364" height="31.6364"/>
+  <object id="195" x="223.682" y="64.1818" width="31.6364" height="31.6364"/>
+  <object id="196" x="97.1818" y="64.6818" width="31.6364" height="31.6364"/>
+  <object id="197" x="353.182" y="65.6818" width="31.6364" height="31.6364"/>
+  <object id="198" x="352.682" y="160.182" width="31.6364" height="31.6364"/>
+ </objectgroup>
+ <objectgroup id="5" name="bricks">
+  <object id="1" x="418.184" y="128.732" width="28" height="28.5"/>
+  <object id="2" x="450" y="129.25" width="28" height="28.5"/>
+  <object id="3" x="481.667" y="129.917" width="28" height="28.5"/>
+  <object id="4" x="418.333" y="161.083" width="28" height="28.5">
+   <properties>
+    <property name="speed" value=""/>
+    <property name="speedBoost" value=""/>
+   </properties>
+  </object>
+  <object id="5" x="449.667" y="162.083" width="28" height="28.5"/>
+  <object id="6" x="449.667" y="193.083" width="28" height="28.5"/>
+  <object id="7" x="450.333" y="225.083" width="28" height="28.5">
+   <properties>
+    <property name="BombBoost" value=""/>
+    <property name="bomb" value=""/>
+   </properties>
+  </object>
+  <object id="8" x="481.833" y="225.75" width="28" height="28.5"/>
+  <object id="9" x="513.75" y="225.25" width="28" height="28.5"/>
+  <object id="10" x="482.5" y="97.75" width="28" height="28.5"/>
+  <object id="11" x="514" y="97.5" width="28" height="28.5"/>
+  <object id="12" x="514.25" y="66" width="28" height="28.5"/>
+  <object id="13" x="545.75" y="65.25" width="28" height="28.5"/>
+  <object id="14" x="98" y="33.75" width="28" height="28.5"/>
+  <object id="15" x="130.333" y="34.4167" width="28" height="28.5"/>
+  <object id="16" x="130.417" y="65.0833" width="28" height="28.5"/>
+  <object id="17" x="130" y="97.75" width="28" height="28.5"/>
+  <object id="18" x="129.5" y="129.5" width="28" height="28.5">
+   <properties>
+    <property name="speed" value=""/>
+    <property name="speedBoost" value=""/>
+   </properties>
+  </object>
+  <object id="19" x="161.75" y="130" width="28" height="28.5"/>
+  <object id="20" x="161.75" y="161.5" width="28" height="28.5">
+   <properties>
+    <property name="bomb" value=""/>
+   </properties>
+  </object>
+  <object id="21" x="129.75" y="161.75" width="28" height="28.5"/>
+  <object id="40" x="65.9929" y="224.927" width="28" height="28.5">
+   <properties>
+    <property name="speed" value=""/>
+   </properties>
+  </object>
+  <object id="41" x="97.5" y="224.75" width="28" height="28.5">
+   <properties>
+    <property name="speed" value=""/>
+   </properties>
+  </object>
+  <object id="42" x="129.5" y="225.25" width="28" height="28.5">
+   <properties>
+    <property name="speed" value=""/>
+   </properties>
+  </object>
+  <object id="43" x="161.5" y="225.25" width="28" height="28.5">
+   <properties>
+    <property name="speed" value=""/>
+   </properties>
+  </object>
+  <object id="44" x="66" y="257.25" width="28" height="28.5">
+   <properties>
+    <property name="speed" value=""/>
+   </properties>
+  </object>
+  <object id="45" x="66.1667" y="289.917" width="28" height="28.5">
+   <properties>
+    <property name="speed" value=""/>
+   </properties>
+  </object>
+  <object id="46" x="98" y="289.083" width="28" height="28.5">
+   <properties>
+    <property name="speed" value=""/>
+   </properties>
+  </object>
+  <object id="47" x="129.667" y="289.75" width="28" height="28.5">
+   <properties>
+    <property name="BombBoost" value=""/>
+    <property name="speed" value=""/>
+   </properties>
+  </object>
+  <object id="48" x="130" y="321.083" width="28" height="28.5">
+   <properties>
+    <property name="speed" value=""/>
+   </properties>
+  </object>
+  <object id="49" x="258.25" y="33.5" width="28" height="28.5">
+   <properties>
+    <property name="speed" value=""/>
+   </properties>
+  </object>
+  <object id="50" x="290" y="33.5" width="28" height="28.5">
+   <properties>
+    <property name="speed" value=""/>
+   </properties>
+  </object>
+  <object id="51" x="290.25" y="65.5" width="28" height="28.5">
+   <properties>
+    <property name="speed" value=""/>
+   </properties>
+  </object>
+  <object id="52" x="322" y="65.75" width="28" height="28.5">
+   <properties>
+    <property name="speed" value=""/>
+   </properties>
+  </object>
+  <object id="53" x="289.75" y="97" width="28" height="28.5">
+   <properties>
+    <property name="speed" value=""/>
+   </properties>
+  </object>
+  <object id="54" x="289.75" y="129" width="28" height="28.5">
+   <properties>
+    <property name="speed" value=""/>
+   </properties>
+  </object>
+  <object id="55" x="258.25" y="129.5" width="28" height="28.5">
+   <properties>
+    <property name="speed" value=""/>
+   </properties>
+  </object>
+  <object id="56" x="257.75" y="161" width="28" height="28.5">
+   <properties>
+    <property name="speed" value=""/>
+   </properties>
+  </object>
+  <object id="57" x="257.75" y="193.25" width="28" height="28.5">
+   <properties>
+    <property name="speed" value=""/>
+   </properties>
+  </object>
+  <object id="58" x="225.75" y="193.25" width="28" height="28.5">
+   <properties>
+    <property name="BombBoost" value=""/>
+    <property name="speed" value=""/>
+   </properties>
+  </object>
+  <object id="59" x="610" y="97.75" width="28" height="28.5">
+   <properties>
+    <property name="speed" value=""/>
+   </properties>
+  </object>
+  <object id="60" x="642" y="97.5" width="28" height="28.5">
+   <properties>
+    <property name="speed" value=""/>
+   </properties>
+  </object>
+  <object id="61" x="642" y="129.25" width="28" height="28.5">
+   <properties>
+    <property name="speed" value=""/>
+   </properties>
+  </object>
+  <object id="62" x="641.75" y="161.5" width="28" height="28.5">
+   <properties>
+    <property name="speed" value=""/>
+   </properties>
+  </object>
+  <object id="63" x="673.75" y="161" width="28" height="28.5">
+   <properties>
+    <property name="speed" value=""/>
+   </properties>
+  </object>
+  <object id="64" x="705.5" y="161.5" width="28" height="28.5">
+   <properties>
+    <property name="speed" value=""/>
+   </properties>
+  </object>
+  <object id="65" x="642" y="193.5" width="28" height="28.5">
+   <properties>
+    <property name="speed" value=""/>
+   </properties>
+  </object>
+  <object id="66" x="674" y="193.75" width="28" height="28.5">
+   <properties>
+    <property name="speed" value=""/>
+   </properties>
+  </object>
+  <object id="67" x="705.5" y="193.5" width="28" height="28.5">
+   <properties>
+    <property name="speed" value=""/>
+   </properties>
+  </object>
+  <object id="68" x="641.75" y="225" width="28" height="28.5">
+   <properties>
+    <property name="speed" value=""/>
+   </properties>
+  </object>
+  <object id="69" x="898.25" y="97.25" width="28" height="28.5">
+   <properties>
+    <property name="speed" value=""/>
+   </properties>
+  </object>
+  <object id="70" x="930" y="97.75" width="28" height="28.5">
+   <properties>
+    <property name="speed" value=""/>
+   </properties>
+  </object>
+  <object id="71" x="961.75" y="97.5" width="28" height="28.5">
+   <properties>
+    <property name="speed" value=""/>
+   </properties>
+  </object>
+  <object id="72" x="994.25" y="97.75" width="28" height="28.5">
+   <properties>
+    <property name="speed" value=""/>
+   </properties>
+  </object>
+  <object id="73" x="1025.5" y="97.25" width="28" height="28.5">
+   <properties>
+    <property name="speed" value=""/>
+   </properties>
+  </object>
+  <object id="74" x="898" y="129.75" width="28" height="28.5">
+   <properties>
+    <property name="speed" value=""/>
+   </properties>
+  </object>
+  <object id="75" x="897.5" y="161.5" width="28" height="28.5">
+   <properties>
+    <property name="speed" value=""/>
+   </properties>
+  </object>
+  <object id="76" x="962" y="129.75" width="28" height="28.5">
+   <properties>
+    <property name="speed" value=""/>
+   </properties>
+  </object>
+  <object id="77" x="994.25" y="130" width="28" height="28.5">
+   <properties>
+    <property name="speed" value=""/>
+   </properties>
+  </object>
+  <object id="78" x="1026" y="129.25" width="28" height="28.5">
+   <properties>
+    <property name="speed" value=""/>
+   </properties>
+  </object>
+  <object id="79" x="961.75" y="161.25" width="28" height="28.5">
+   <properties>
+    <property name="speed" value=""/>
+   </properties>
+  </object>
+  <object id="80" x="962" y="193.5" width="28" height="28.5">
+   <properties>
+    <property name="speed" value=""/>
+   </properties>
+  </object>
+  <object id="81" x="994" y="193.75" width="28" height="28.5">
+   <properties>
+    <property name="speed" value=""/>
+   </properties>
+  </object>
+  <object id="82" x="994.25" y="225.75" width="28" height="28.5">
+   <properties>
+    <property name="speed" value=""/>
+   </properties>
+  </object>
+  <object id="83" x="1025.75" y="225.5" width="28" height="28.5">
+   <properties>
+    <property name="speed" value=""/>
+   </properties>
+  </object>
+  <object id="84" x="1026" y="257.5" width="28" height="28.5">
+   <properties>
+    <property name="speed" value=""/>
+   </properties>
+  </object>
+  <object id="85" x="1026" y="289" width="28" height="28.5">
+   <properties>
+    <property name="speed" value=""/>
+   </properties>
+  </object>
+  <object id="86" x="226.25" y="321.25" width="28" height="28.5">
+   <properties>
+    <property name="speed" value=""/>
+   </properties>
+  </object>
+  <object id="87" x="257.75" y="322" width="28" height="28.5">
+   <properties>
+    <property name="speed" value=""/>
+   </properties>
+  </object>
+  <object id="88" x="258" y="353.5" width="28" height="28.5">
+   <properties>
+    <property name="speed" value=""/>
+   </properties>
+  </object>
+  <object id="89" x="258" y="385.5" width="28" height="28.5">
+   <properties>
+    <property name="speed" value=""/>
+   </properties>
+  </object>
+  <object id="90" x="290" y="385" width="28" height="28.5">
+   <properties>
+    <property name="speed" value=""/>
+   </properties>
+  </object>
+  <object id="91" x="322" y="385.75" width="28" height="28.5">
+   <properties>
+    <property name="speed" value=""/>
+   </properties>
+  </object>
+  <object id="92" x="290" y="417.75" width="28" height="28.5">
+   <properties>
+    <property name="speed" value=""/>
+   </properties>
+  </object>
+  <object id="93" x="322.5" y="417.5" width="28" height="28.5">
+   <properties>
+    <property name="speed" value=""/>
+   </properties>
+  </object>
+  <object id="94" x="290" y="449.25" width="28" height="28.5">
+   <properties>
+    <property name="speed" value=""/>
+   </properties>
+  </object>
+  <object id="95" x="322.25" y="449.75" width="28" height="28.5">
+   <properties>
+    <property name="speed" value=""/>
+   </properties>
+  </object>
+  <object id="96" x="322.25" y="482" width="28" height="28.5">
+   <properties>
+    <property name="speed" value=""/>
+   </properties>
+  </object>
+  <object id="97" x="322" y="513.25" width="28" height="28.5">
+   <properties>
+    <property name="speed" value=""/>
+   </properties>
+  </object>
+  <object id="98" x="226.25" y="481.25" width="28" height="28.5">
+   <properties>
+    <property name="speed" value=""/>
+   </properties>
+  </object>
+  <object id="99" x="258" y="481.25" width="28" height="28.5">
+   <properties>
+    <property name="speed" value=""/>
+   </properties>
+  </object>
+  <object id="100" x="226" y="513.75" width="28" height="28.5">
+   <properties>
+    <property name="speed" value=""/>
+   </properties>
+  </object>
+  <object id="101" x="194.25" y="513.25" width="28" height="28.5">
+   <properties>
+    <property name="speed" value=""/>
+   </properties>
+  </object>
+  <object id="102" x="161.75" y="514" width="28" height="28.5">
+   <properties>
+    <property name="speed" value=""/>
+   </properties>
+  </object>
+  <object id="103" x="162.25" y="545" width="28" height="28.5">
+   <properties>
+    <property name="speed" value=""/>
+   </properties>
+  </object>
+  <object id="104" x="194" y="546" width="28" height="28.5">
+   <properties>
+    <property name="speed" value=""/>
+   </properties>
+  </object>
+  <object id="105" x="193.5" y="577.75" width="28" height="28.5">
+   <properties>
+    <property name="speed" value=""/>
+   </properties>
+  </object>
+  <object id="106" x="161.75" y="577.5" width="28" height="28.5">
+   <properties>
+    <property name="speed" value=""/>
+   </properties>
+  </object>
+  <object id="107" x="130" y="578" width="28" height="28.5">
+   <properties>
+    <property name="speed" value=""/>
+   </properties>
+  </object>
+  <object id="108" x="450.667" y="322.083" width="28" height="28.5">
+   <properties>
+    <property name="speed" value=""/>
+   </properties>
+  </object>
+  <object id="109" x="481.818" y="321.568" width="28" height="28.5">
+   <properties>
+    <property name="speed" value=""/>
+   </properties>
+  </object>
+  <object id="110" x="514" y="321.023" width="28" height="28.5">
+   <properties>
+    <property name="speed" value=""/>
+   </properties>
+  </object>
+  <object id="111" x="449.818" y="353.75" width="28" height="28.5">
+   <properties>
+    <property name="speed" value=""/>
+   </properties>
+  </object>
+  <object id="112" x="449.818" y="385.932" width="28" height="28.5">
+   <properties>
+    <property name="speed" value=""/>
+   </properties>
+  </object>
+  <object id="113" x="514.364" y="353.023" width="28" height="28.5">
+   <properties>
+    <property name="speed" value=""/>
+   </properties>
+  </object>
+  <object id="114" x="514.182" y="385.75" width="28" height="28.5">
+   <properties>
+    <property name="speed" value=""/>
+   </properties>
+  </object>
+  <object id="115" x="545.636" y="385.75" width="28" height="28.5">
+   <properties>
+    <property name="speed" value=""/>
+   </properties>
+  </object>
+  <object id="116" x="450.364" y="417.568" width="28" height="28.5">
+   <properties>
+    <property name="speed" value=""/>
+   </properties>
+  </object>
+  <object id="117" x="450.182" y="449.75" width="28" height="28.5">
+   <properties>
+    <property name="speed" value=""/>
+   </properties>
+  </object>
+  <object id="118" x="642.182" y="321.386" width="28" height="28.5">
+   <properties>
+    <property name="portal" value=""/>
+    <property name="speed" value=""/>
+   </properties>
+  </object>
+  <object id="119" x="642.182" y="353.568" width="28" height="28.5">
+   <properties>
+    <property name="speed" value=""/>
+   </properties>
+  </object>
+  <object id="120" x="674.364" y="353.386" width="28" height="28.5">
+   <properties>
+    <property name="speed" value=""/>
+   </properties>
+  </object>
+  <object id="121" x="674.182" y="385.75" width="28" height="28.5">
+   <properties>
+    <property name="speed" value=""/>
+   </properties>
+  </object>
+  <object id="122" x="706.364" y="385.75" width="28" height="28.5">
+   <properties>
+    <property name="speed" value=""/>
+   </properties>
+  </object>
+  <object id="123" x="642.182" y="417.75" width="28" height="28.5">
+   <properties>
+    <property name="speed" value=""/>
+   </properties>
+  </object>
+  <object id="124" x="674.182" y="417.75" width="28" height="28.5">
+   <properties>
+    <property name="speed" value=""/>
+   </properties>
+  </object>
+  <object id="125" x="706.182" y="417.75" width="28" height="28.5">
+   <properties>
+    <property name="speed" value=""/>
+   </properties>
+  </object>
+  <object id="126" x="674" y="449.75" width="28" height="28.5">
+   <properties>
+    <property name="speed" value=""/>
+   </properties>
+  </object>
+  <object id="127" x="674" y="481.023" width="28" height="28.5">
+   <properties>
+    <property name="speed" value=""/>
+   </properties>
+  </object>
+  <object id="128" x="642" y="481.568" width="28" height="28.5">
+   <properties>
+    <property name="speed" value=""/>
+   </properties>
+  </object>
+  <object id="129" x="610" y="481.75" width="28" height="28.5">
+   <properties>
+    <property name="speed" value=""/>
+   </properties>
+  </object>
+  <object id="130" x="610" y="513.932" width="28" height="28.5">
+   <properties>
+    <property name="speed" value=""/>
+   </properties>
+  </object>
+  <object id="131" x="577.818" y="513.568" width="28" height="28.5">
+   <properties>
+    <property name="speed" value=""/>
+   </properties>
+  </object>
+  <object id="132" x="578" y="545.568" width="28" height="28.5">
+   <properties>
+    <property name="speed" value=""/>
+   </properties>
+  </object>
+  <object id="133" x="802" y="257.083" width="28" height="28.5">
+   <properties>
+    <property name="speed" value=""/>
+   </properties>
+  </object>
+  <object id="134" x="802" y="289.083" width="28" height="28.5">
+   <properties>
+    <property name="speed" value=""/>
+   </properties>
+  </object>
+  <object id="135" x="834" y="289.417" width="28" height="28.5">
+   <properties>
+    <property name="speed" value=""/>
+   </properties>
+  </object>
+  <object id="136" x="866" y="289.75" width="28" height="28.5">
+   <properties>
+    <property name="speed" value=""/>
+   </properties>
+  </object>
+  <object id="137" x="833.667" y="321.75" width="28" height="28.5">
+   <properties>
+    <property name="speed" value=""/>
+   </properties>
+  </object>
+  <object id="138" x="865.667" y="322.083" width="28" height="28.5">
+   <properties>
+    <property name="speed" value=""/>
+   </properties>
+  </object>
+  <object id="139" x="897.667" y="289.417" width="28" height="28.5">
+   <properties>
+    <property name="speed" value=""/>
+   </properties>
+  </object>
+  <object id="140" x="898" y="321.75" width="28" height="28.5">
+   <properties>
+    <property name="speed" value=""/>
+   </properties>
+  </object>
+  <object id="141" x="897.667" y="354.083" width="28" height="28.5">
+   <properties>
+    <property name="speed" value=""/>
+   </properties>
+  </object>
+  <object id="142" x="898" y="385.417" width="28" height="28.5">
+   <properties>
+    <property name="speed" value=""/>
+   </properties>
+  </object>
+  <object id="143" x="898" y="417.083" width="28" height="28.5">
+   <properties>
+    <property name="speed" value=""/>
+   </properties>
+  </object>
+  <object id="144" x="770.333" y="417.75" width="28" height="28.5">
+   <properties>
+    <property name="speed" value=""/>
+   </properties>
+  </object>
+  <object id="145" x="770" y="448.75" width="28" height="28.5">
+   <properties>
+    <property name="speed" value=""/>
+   </properties>
+  </object>
+  <object id="146" x="802.333" y="449.417" width="28" height="28.5">
+   <properties>
+    <property name="speed" value=""/>
+   </properties>
+  </object>
+  <object id="147" x="801.667" y="481.417" width="28" height="28.5">
+   <properties>
+    <property name="speed" value=""/>
+   </properties>
+  </object>
+  <object id="148" x="801.667" y="513.083" width="28" height="28.5">
+   <properties>
+    <property name="speed" value=""/>
+   </properties>
+  </object>
+  <object id="149" x="769.333" y="513.75" width="28" height="28.5">
+   <properties>
+    <property name="speed" value=""/>
+   </properties>
+  </object>
+  <object id="150" x="769.333" y="545.083" width="28" height="28.5">
+   <properties>
+    <property name="speed" value=""/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="12" name="goomba">
+  <object id="32" x="417.333" y="569" width="30" height="27"/>
+  <object id="34" x="384" y="32.5" width="31" height="30.5"/>
+  <object id="36" x="577" y="193.75" width="31" height="30.5"/>
+  <object id="37" x="545.5" y="417.75" width="31" height="30.5"/>
+ </objectgroup>
+ <objectgroup id="13" name="smileface">
+  <object id="38" x="800" y="128" width="31.3333" height="30.6667"/>
+  <object id="39" x="950.333" y="289.333" width="30.6667" height="30.6667"/>
+ </objectgroup>
+</map>

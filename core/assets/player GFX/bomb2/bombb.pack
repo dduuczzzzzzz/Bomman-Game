@@ -1,0 +1,47 @@
+
+bombb.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+bomb1
+  rotate: false
+  xy: 1, 35
+  size: 48, 16
+  orig: 48, 16
+  offset: 0, 0
+  index: -1
+explode_down
+  rotate: false
+  xy: 1, 1
+  size: 16, 32
+  orig: 16, 32
+  offset: 0, 0
+  index: -1
+explode_left
+  rotate: false
+  xy: 51, 35
+  size: 32, 16
+  orig: 32, 16
+  offset: 0, 0
+  index: -1
+explode_right
+  rotate: false
+  xy: 19, 17
+  size: 32, 16
+  orig: 32, 16
+  offset: 0, 0
+  index: -1
+explode_up
+  rotate: false
+  xy: 85, 19
+  size: 16, 32
+  orig: 16, 32
+  offset: 0, 0
+  index: -1
+flame_mid
+  rotate: false
+  xy: 103, 35
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1

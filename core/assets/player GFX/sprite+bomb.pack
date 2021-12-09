@@ -1,0 +1,40 @@
+
+sprite+bomb.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+bomb_explode
+  rotate: false
+  xy: 1, 1
+  size: 288, 16
+  orig: 288, 16
+  offset: 0, 0
+  index: -1
+spritesheet
+  rotate: false
+  xy: 291, 1
+  size: 128, 16
+  orig: 128, 16
+  offset: 0, 0
+  index: -1
+baloon
+  rotate: false
+  xy: 421, 1
+  size: 112, 16
+  orig: 112, 16
+  offset: 0, 0
+  index: -1
+goomba
+  rotate: false
+  xy: 535, 1
+  size: 112, 16
+  orig: 112, 16
+  offset: 0, 0
+  index: -1
+bomb
+  rotate: false
+  xy: 649, 1
+  size: 48, 16
+  orig: 48, 16
+  offset: 0, 0
+  index: -1

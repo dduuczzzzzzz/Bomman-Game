@@ -1,0 +1,40 @@
+
+gaming.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+spritesheet
+  rotate: false
+  xy: 1, 5
+  size: 128, 16
+  orig: 128, 16
+  offset: 0, 0
+  index: -1
+baloon
+  rotate: false
+  xy: 131, 5
+  size: 112, 16
+  orig: 112, 16
+  offset: 0, 0
+  index: -1
+enemy
+  rotate: false
+  xy: 245, 1
+  size: 85, 20
+  orig: 85, 20
+  offset: 0, 0
+  index: -1
+bomb
+  rotate: false
+  xy: 332, 5
+  size: 48, 16
+  orig: 48, 16
+  offset: 0, 0
+  index: -1
+goomba
+  rotate: false
+  xy: 382, 5
+  size: 48, 16
+  orig: 48, 16
+  offset: 0, 0
+  index: -1
