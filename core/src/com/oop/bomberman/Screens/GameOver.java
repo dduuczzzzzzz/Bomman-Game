@@ -16,10 +16,10 @@ import com.badlogic.gdx.utils.viewport.Viewport;
 import com.oop.bomberman.Bomberman;
 
 public class GameOver implements Screen {
-    private Viewport viewport;
-    private Stage stage;
+    private final Viewport viewport;
+    private final Stage stage;
 
-    private Game game;
+    private final Game game;
 
     public GameOver(Game game){
         this.game = game;

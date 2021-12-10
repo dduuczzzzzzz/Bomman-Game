@@ -11,10 +11,6 @@ import com.badlogic.gdx.utils.ScreenUtils;
 import com.oop.bomberman.Screens.PlayScreen;
 
 public class Bomberman extends Game {
-	public static final int V_WIDTH = 1200;
-	public static final int V_HEIGHT = 638;
-	public static final int PPM = 2;
-
 	public static final short NOTHING_BIT = 0;
 	public static final short GROUND_BIT = 1;
 	public static final short BOMMAN_BIT = 2;
@@ -45,6 +41,7 @@ public class Bomberman extends Game {
 		manager.load("audio/sounds/mariodie.wav", Sound.class);
 		manager.load("audio/sounds/CRYST_UP.wav", Sound.class);
 		manager.load("audio/sounds/BOM_SET.wav", Sound.class);
+		manager.load("audio/sounds/run.mp3", Sound.class);
 		manager.finishLoading();
 		setScreen(new PlayScreen(this));
 	}
@@ -58,6 +55,5 @@ public class Bomberman extends Game {
 	public void dispose () {
 		batch.dispose();
 		manager.dispose();
-
 	}
 }

@@ -139,7 +139,6 @@ public class WorldContactListener implements ContactListener {
                 }
                 else {
                     if(FixB.getUserData() != null && FixA.getUserData() != null) {
-                        System.out.println("boost");
                         ((Item) FixB.getUserData()).useItem();
                         ((Bomman) FixA.getUserData()).Increase_Bomb();
                     }
@@ -152,7 +151,6 @@ public class WorldContactListener implements ContactListener {
                 }
                 else {
                     if(FixB.getUserData() != null && FixA.getUserData() != null) {
-                        System.out.println("boost");
                         ((Item) FixB.getUserData()).useItem();
                         ((Bomman) FixA.getUserData()).win_game();
                     }

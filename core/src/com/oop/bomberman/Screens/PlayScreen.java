@@ -199,17 +199,11 @@ public class PlayScreen implements Screen {
     }
 
     public boolean isGameOver() {
-        if(bomman.isDead()) {
-            return true;
-        }
-        return false;
+        return bomman.isDead();
     }
 
     public boolean Congrat() {
-        if(bomman.isWin_Game()) {
-            return true;
-        }
-        return false;
+        return bomman.isWin_Game();
     }
 
     public TextureAtlas getAtlas() {

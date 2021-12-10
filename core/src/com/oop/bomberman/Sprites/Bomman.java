@@ -148,7 +148,7 @@ public class Bomman extends Sprite implements InputProcessor {
         shape.setRadius(10);
 
         fdef.filter.categoryBits = Bomberman.BOMMAN_BIT;
-        fdef.filter.maskBits = Bomberman.GROUND_BIT | Bomberman.FLAME_BIT | Bomberman.ENEMY_BIT | Bomberman.OBJECT_BIT | Bomberman.ENEMY_HEAD_BIT | Bomberman.ITEM_BIT | Bomberman.BOMB_BIT | Bomberman.BRICK_BIT | Bomberman.ITEM2_BIT | Bomberman.ITEM3_BIT;
+        fdef.filter.maskBits = Bomberman.GROUND_BIT | Bomberman.FLAME_BIT | Bomberman.ENEMY_BIT | Bomberman.OBJECT_BIT | Bomberman.ENEMY_HEAD_BIT | Bomberman.ITEM_BIT | Bomberman.BOMB_BIT | Bomberman.BRICK_BIT | Bomberman.ITEM2_BIT | Bomberman.ITEM3_BIT | Bomberman.ENEMY2_BIT;
 
         fdef.shape = shape;
         b2body.createFixture(fdef);
@@ -198,12 +198,6 @@ public class Bomman extends Sprite implements InputProcessor {
         if(!isWin_Game()) {
             Bomberman.manager.get("audio/music/theme.wav", Music.class).stop();
             isWin = true;
-            Filter filter = new Filter();
-            filter.maskBits = Bomberman.NOTHING_BIT;
-
-            for (Fixture fixture : b2body.getFixtureList()) {
-                fixture.setFilterData(filter);
-            }
             b2body.applyLinearImpulse(new Vector2(0, 0), b2body.getWorldCenter(), true);
         }
     }
@@ -247,6 +241,7 @@ public class Bomman extends Sprite implements InputProcessor {
                     break;
                 case Input.Keys.B:
                     //plant a bomb
+                    Bomberman.manager.get("audio/sounds/run.mp3", Sound.class).play();
                     place_Bomb();
                     System.out.println("press");
             }

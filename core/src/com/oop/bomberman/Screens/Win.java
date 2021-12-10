@@ -16,10 +16,10 @@ import com.badlogic.gdx.utils.viewport.Viewport;
 import com.oop.bomberman.Bomberman;
 
 public class Win implements Screen {
-    private Viewport viewport;
-    private Stage stage;
+    private final Viewport viewport;
+    private final Stage stage;
 
-    private Game game;
+    private final Game game;
 
     public Win(Game game){
         this.game = game;
@@ -32,10 +32,10 @@ public class Win implements Screen {
         table.center();
         table.setFillParent(true);
 
-        Label gameOverLabel = new Label("WINNN !!!", font);
+        Label WinLabel = new Label("WINNN !!!", font);
         Label playAgainLabel = new Label("Click to Play Again", font);
 
-        table.add(gameOverLabel).expandX();
+        table.add(WinLabel).expandX();
         table.row();
         table.add(playAgainLabel).expandX().padTop(10f);
 
@@ -49,7 +49,7 @@ public class Win implements Screen {
 
     @Override
     public void render(float delta) {
-        if(Gdx.input.justTouched() || Gdx.input.isKeyPressed(Input.Keys.D)) {
+        if(Gdx.input.justTouched() || Gdx.input.isKeyPressed(Input.Keys.ANY_KEY) || Gdx.input.isKeyJustPressed(Input.Keys.ANY_KEY)) {
             game.setScreen(new PlayScreen((Bomberman) game));
             dispose();
         }
